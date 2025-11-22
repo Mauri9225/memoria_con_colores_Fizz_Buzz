@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Matriz FizzBuzz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Matriz FizzBuzz</h1>
+
+    <div class="inputs">
+        <label>N (tamaño):</label>
+        <input type="number" id="n" min="2">
+
+        <label>Fizz:</label>
+        <input type="number" id="fizz" min="1">
+
+        <label>Buzz:</label>
+        <input type="number" id="buzz" min="1">
+
+        <button id="btnGenerar">Generar Matriz</button>
+    </div>
+
+    <p class="leyenda">
+        <span class="fizz">Fizz = Verde</span> |
+        <span class="buzz">Buzz = Azul</span> |
+        <span class="fizzbuzz">FizzBuzz = Morado</span>
+    </p>
+
+    <div id="matriz"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
